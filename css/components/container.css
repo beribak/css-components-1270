@@ -1,0 +1,25 @@
+.container {
+  margin: auto; 
+  width: 50vw;
+  height: 50vh;
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.items {
+  height: 25vh;
+  background-color: blue;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.item {
+  flex-grow: 1;
+}
+
+.item3 {
+  flex-grow: 2;
+}
+
